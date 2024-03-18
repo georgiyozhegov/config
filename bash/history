@@ -1,0 +1,500 @@
+cd applications/
+ls
+clear
+cd ..
+ls
+cd nvim
+ls
+cd ..
+ls
+cd ..
+cd ..
+ls
+clear
+ls
+gnome-calculator 
+clear
+ls
+Hyprland
+clear
+ls
+lsblk
+clear
+ls
+mkdir Записи
+ls
+RM
+rm -rf Записи
+clear
+ls
+mv .config/hypr configs/hypr
+mv .config/nvim configs/nvim
+mv .config/nvim ~/configs/nvim
+ls
+cd .config
+ls
+ln -s ~/configs/hyprland ~/.config/
+ls
+cd hyprland
+ls
+clear
+cd ..
+ls
+ln -s ~/configs/nvim ~/.config
+ls
+clear
+ls
+ls
+ls
+clear
+ls
+mkdir configs
+ls
+cd configs
+mkdir nvim
+mkdir hyprland
+ls
+rm -rf hyprland
+ls
+ls
+cd ~/.config/
+ls
+rm hyprland
+ln -s ~/configs/hypr ~/.config
+clear
+ls
+cd ..
+ls
+clear
+cd configs
+ls
+ls
+cd ..
+ls
+ls
+mv configs config
+clear
+ls
+cd .config
+ls
+cd hypr
+ls
+cd nvim
+rm hypr nvim
+ls
+clear
+ln -s ~/config/hypr ~/.config
+ln -s ~/config/nvim ~/.config
+clear
+ls
+cd hypr
+clear
+cd ..
+ls
+clear
+ls
+ls
+sudo pacman -S neofetch
+clear
+neofetch
+glances
+neofetch
+clear
+neofetch
+ls
+cd hypr
+ls
+clear
+exit
+exit
+ls
+cd config
+ls
+cd configs
+ls
+clear
+ls
+cd hyprland
+ls
+bat hyprland.cond
+bat hyprland.conf
+bat general.conf
+clear
+ls
+bat hyprland.conf 
+bat decoration.conf 
+bat animations.conf 
+clear
+bat dwindle.conf 
+bat hyprland.conf 
+bat binds.conf 
+bat animations.conf 
+ls
+bat apps.conf 
+:w
+clear
+bat apps.conf 
+bat *
+clear
+ls
+cd ..
+cd nvim
+clear
+ls
+ls
+nvim init.lua 
+ls
+clear
+ls
+ls
+menu
+clear
+gnome-shell
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+librewolf
+clear
+telegram-desktop
+telegram
+clear
+gnome-software
+clear
+ls
+bat
+bat << Hello
+
+
+clear
+ls
+bat .config/hypr
+bat .config/hypr/hyprland.conf 
+nvim config/hypr/hyprland.conf 
+ls
+cd ..
+cd ~
+cd config
+clear
+ls
+git clone https://github.com/georgiyozheog/configs.git
+git clone https://github.com/georgiyozhegov/configs.git
+clear
+ls
+cd configs
+ls
+ls
+clear
+cd ..
+ls
+cd hypr/
+ls
+clear
+nvim hyprland
+nvim hyprland.conf 
+ls
+cd ..
+ls
+cd nvim
+ls
+ls
+clear
+ls
+nvim init.lua
+ls
+cd config
+cd configs
+clear
+ls
+cd nvim
+ls
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+ls
+cd config
+ls
+cd nvim
+ls
+nvim init.lua 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+ls
+clear
+ls
+clear
+nvim init.lua 
+ls
+ls
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+ls
+mkdir plugins
+nvim plugins/telescope.lua
+sudo pacman -S ripgrep
+clear
+nvim plugins/telescope.lua
+nvim init.lua 
+nvim init.lua 
+nvim plugins/telescope.lua 
+nvim init.lua 
+nvim plugins/treesitter.lua
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim plugins/treesitter.lua
+nvim init.lua 
+nvim plugins/gruvbox.lua
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim plugins/completion.lua
+nvim init.lua 
+nvim init.lua 
+sudo pacman -S luals
+sudo pacman -S lualsp
+sudo pacman -S lua-ls
+sudo pacman -S lua-lsp
+sudo pacman -S lua_ls
+sudo pacman -S lua-language-server
+pacman -S pylsp
+sudo pacman -S pylsp
+sudo pacman -S python-language-server
+sudo pacman -S pyls
+sudo pacman -S pylsp
+clear
+ls
+nvim init.lua 
+mv plugins/completion.lua plugins/lsp.lua
+nvim init.lua 
+nvim init.lua 
+clear
+ls
+poweroff
+clear
+exit
+ls
+nvim .bashrc
+clear
+nvim .bashrc
+cd config
+ls
+cd nvim
+ls
+clear
+cd plugins
+ls
+mv gruvbox.lua gruvbox_.lua
+mv lsp.lua lsp_.lua
+mv telescope.lua telescope_.lua 
+mv treesitter.lua treesitter_.lua 
+clear
+ls
+cd ..
+ls
+nvim init.lua 
+clear
+cd ..
+cd ..
+clear
+nvim .bashrc
+clear
+ls
+cd config/
+ls
+cd nvim
+clear
+ls
+ln -h
+clea
+ln --help
+clear
+ls
+nvim init.lua 
+nvim 
+nvim init.lua 
+cd ..
+nvim
+nvim
+cd nvim/
+clear
+ls
+cd plugins/
+ls
+clear
+ls
+mv gruvbox_.lua gruvbox.lua 
+clear
+ls
+mv lsp_.lua lsp.lua
+mv telescope_.lua telescope.lua 
+mv treesitter_.lua treesitter.lua 
+clear
+ls
+clear
+cd ..
+ls
+mkdir lua
+ls
+mv plugins/ lua/
+;s
+ls
+clear
+cd lua
+ls
+clear
+cd ..
+ls
+nvim init.lua 
+clear
+nvim init.lua 
+clear
+cd ..
+ls
+clear
+nvim
+clear
+cd ..
+ls
+clear
+ls
+cd config/
+ls
+git init
+git config --global init.defaultBranch master
+clear
+ls
+git add hypr
+git commit --edit
+git config --global user.email "georgiyozhegov.rs@gmail.com"
+git config --global user.name "Georgiy Ozhegov"
+clear
+git commit --edit
+clear
+cd ..
+nvim .bashrc
+ls
+ls
+ls -a
+mkdir config/bash
+cp .bash* config/bash/
+ls
+ls config/bash
+ls config/bash
+cp .bash_history config/bash/history
+ls config/bash
+cat .bash_profile
+cp .bash_profile config/bash/profile
+cp .bashrc config/bash/rc
+clear
+ls
+ls -a
+ls config/bash/
+cat .bash_logout 
+cp .bash_logout config/bash/
+ls
+ls config/bash/
+cp .bash_logout config/bash/logout
+clear
+ls config/bash/
+clear
+ls
+clear
+ls -a
+clear
+ls -la | grep bash
+rm .bash_*
+ls -la | grep bash
+rm .bash*
+ln -s config/bash/rc .bashrc
+ls
+ls -la
+clear
+ls -la | grep bash
+ln -s config/bash/logout .bash_logout
+ls config/bash/
+ln -s config/bash/profile .bash_profile
+ln -s config/bash/history .bash_history
+ls
+ls -la
+clear
+bash
+clear
+ls
+nvim .bashrc
+clear
+ls
+cd config/bash/
+ls
+clear
+nvim rc
+exit
+ls
+cd config/
+clear
+cd bash/
+ls
+nvim rc
+clear
+ls -la
+cat .bash_history 
+clear
+ls
+cat history 
+clear
+cat history 
+clear
+ls
+bat history .bash_history 
+clear
+diff
+clear
+diff --help
+clear
+diff history .bash_history 
+clear
+ls
+rm .bash*
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+clear
+exit
+ls
+clear
+cd config/
+ls
+git status
+git add nvim
+git status
+clear
+git commit --edit
+clear
+nvim bash/rc 
+ls
+nvim bash/profile 
+cd ..
+clear
+cd config/
+git status
+clear
+git commit --edit
+exit
+cd config/
+git commit --edit
+ls
+clear
+nvim bash/profile 
+nvim bash/rc
+clear
+exit
