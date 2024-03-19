@@ -1,3 +1,34 @@
+mv gruvbox.lua gruvbox_.lua
+mv lsp.lua lsp_.lua
+mv telescope.lua telescope_.lua 
+mv treesitter.lua treesitter_.lua 
+clear
+ls
+cd ..
+ls
+nvim init.lua 
+clear
+cd ..
+cd ..
+clear
+nvim .bashrc
+clear
+ls
+cd config/
+ls
+cd nvim
+clear
+ls
+ln -h
+clea
+ln --help
+clear
+ls
+nvim init.lua 
+nvim 
+nvim init.lua 
+cd ..
+nvim
 nvim
 cd nvim/
 clear
@@ -466,35 +497,4 @@ cat info.txt
 ssh ilya@192.168.0.148
 clear
 exit
-clear
-cd projects/server/
-ls
-clear
-cd ТелеграмБотик/
-ls
-cat info.txt 
-ssh ilya@192.168.0.148
-ls
-cat info.txt 
-ssh george@192.168.0.148
-exit
-ls
-poweroff
-cd projects/server/
-ls
-cd ТелеграмБотик/
-clear
-ls
-cat info.txt 
-ssh george@192.168.0.148
-logout
-ls
-clear
-bat log.log
-bat bot.log 
-clear
-nvim
-nvim 
-clear
-ls
 clear

@@ -4,3 +4,7 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+export EDITOR='nvim'
+export PATH=$PATH:~/.cargo/bin/
+
+
