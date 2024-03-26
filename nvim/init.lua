@@ -31,6 +31,8 @@ plug("ellisonleao/gruvbox.nvim")
 plug("neovim/nvim-lspconfig")
 plug("hrsh7th/cmp-nvim-lsp")
 plug("hrsh7th/nvim-cmp")
+plug("dcampos/cmp-snippy")
+plug("dcampos/nvim-snippy")
 
 vim.call("plug#end")
 
