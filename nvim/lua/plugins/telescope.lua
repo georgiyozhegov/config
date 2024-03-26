@@ -14,5 +14,5 @@ require("telescope").setup({
 
 vim.keymap.set("n", "f", ":Telescope find_files<cr>")
 vim.keymap.set("n", "c", ":Telescope commands<cr>")
-vim.keymap.set("n", "l", ":Telescope live_grep<cr>")
+vim.keymap.set("n", "s", ":Telescope live_grep<cr>")
 

@@ -11,6 +11,43 @@ completion.setup({
       })
 })
 
+local kinds = {
+  Text = '  ',
+  Method = '  ',
+  Function = '  ',
+  Constructor = '  ',
+  Field = '  ',
+  Variable = '  ',
+  Class = '  ',
+  Interface = '  ',
+  Module = '  ',
+  Property = '  ',
+  Unit = '  ',
+  Value = '  ',
+  Enum = '  ',
+  Keyword = '  ',
+  Snippet = '  ',
+  Color = '  ',
+  File = '  ',
+  Reference = '  ',
+  Folder = '  ',
+  EnumMember = '  ',
+  Constant = '  ',
+  Struct = '  ',
+  Event = '  ',
+  Operator = '  ',
+  TypeParameter = '  ',
+}
+
+completion.setup {
+      formatting = {
+            format = function(_, item)
+                  item.kind = (kinds[item.kind] or "") .. item.kind
+                  return item
+            end,
+      }
+}
+
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 local config = require("lspconfig")
 

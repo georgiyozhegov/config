@@ -8,7 +8,6 @@ vim.opt.shiftwidth = 6
 vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
--- vim.opt.colorcolumn = "80"
 
 vim.keymap.set("n", "s", "^_")
 vim.keymap.set("n", "e", "g_")
