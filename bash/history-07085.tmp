@@ -1,0 +1,500 @@
+mv gruvbox.lua gruvbox_.lua
+mv lsp.lua lsp_.lua
+mv telescope.lua telescope_.lua 
+mv treesitter.lua treesitter_.lua 
+clear
+ls
+cd ..
+ls
+nvim init.lua 
+clear
+cd ..
+cd ..
+clear
+nvim .bashrc
+clear
+ls
+cd config/
+ls
+cd nvim
+clear
+ls
+ln -h
+clea
+ln --help
+clear
+ls
+nvim init.lua 
+nvim 
+nvim init.lua 
+cd ..
+nvim
+nvim
+cd nvim/
+clear
+ls
+cd plugins/
+ls
+clear
+ls
+mv gruvbox_.lua gruvbox.lua 
+clear
+ls
+mv lsp_.lua lsp.lua
+mv telescope_.lua telescope.lua 
+mv treesitter_.lua treesitter.lua 
+clear
+ls
+clear
+cd ..
+ls
+mkdir lua
+ls
+mv plugins/ lua/
+;s
+ls
+clear
+cd lua
+ls
+clear
+cd ..
+ls
+nvim init.lua 
+clear
+nvim init.lua 
+clear
+cd ..
+ls
+clear
+nvim
+clear
+cd ..
+ls
+clear
+ls
+cd config/
+ls
+git init
+git config --global init.defaultBranch master
+clear
+ls
+git add hypr
+git commit --edit
+git config --global user.email "georgiyozhegov.rs@gmail.com"
+git config --global user.name "Georgiy Ozhegov"
+clear
+git commit --edit
+clear
+cd ..
+nvim .bashrc
+ls
+ls
+ls -a
+mkdir config/bash
+cp .bash* config/bash/
+ls
+ls config/bash
+ls config/bash
+cp .bash_history config/bash/history
+ls config/bash
+cat .bash_profile
+cp .bash_profile config/bash/profile
+cp .bashrc config/bash/rc
+clear
+ls
+ls -a
+ls config/bash/
+cat .bash_logout 
+cp .bash_logout config/bash/
+ls
+ls config/bash/
+cp .bash_logout config/bash/logout
+clear
+ls config/bash/
+clear
+ls
+clear
+ls -a
+clear
+ls -la | grep bash
+rm .bash_*
+ls -la | grep bash
+rm .bash*
+ln -s config/bash/rc .bashrc
+ls
+ls -la
+clear
+ls -la | grep bash
+ln -s config/bash/logout .bash_logout
+ls config/bash/
+ln -s config/bash/profile .bash_profile
+ln -s config/bash/history .bash_history
+ls
+ls -la
+clear
+bash
+clear
+ls
+nvim .bashrc
+clear
+ls
+cd config/bash/
+ls
+clear
+nvim rc
+exit
+ls
+cd config/
+clear
+cd bash/
+ls
+nvim rc
+clear
+ls -la
+cat .bash_history 
+clear
+ls
+cat history 
+clear
+cat history 
+clear
+ls
+bat history .bash_history 
+clear
+diff
+clear
+diff --help
+clear
+diff history .bash_history 
+clear
+ls
+rm .bash*
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+clear
+exit
+ls
+clear
+cd config/
+ls
+git status
+git add nvim
+git status
+clear
+git commit --edit
+clear
+nvim bash/rc 
+ls
+nvim bash/profile 
+cd ..
+clear
+cd config/
+git status
+clear
+git commit --edit
+exit
+cd config/
+git commit --edit
+ls
+clear
+nvim bash/profile 
+nvim bash/rc
+clear
+exit
+cd config/
+git commit --edit
+clear
+ls
+git status
+clear
+git add bash
+git commit --edit
+clear
+git log --oneline
+clear
+ls
+cd ..
+clear
+ls
+cd config/bash/
+clear
+ls
+nvim profile 
+nvim rc
+clear
+exit
+ls
+cd config/
+ls
+cd bash/
+ks
+ls
+clear
+nvim rc
+clear
+exit
+exit
+exit
+ls
+clear
+echo $EDITOR
+clear
+echo $EDITOR
+echo EDITOR
+clear
+env
+env | grep EDITOR
+clear
+ls
+nvim config/bash/rc
+nvim config/bash/profile 
+clear
+./bash_profile
+source ./bash_profile
+source ~/bash_profile
+ls
+ls -a
+source bash_profile
+source .bash_profile
+clear
+ls
+echo $EDITOR
+clear
+ls
+cargo
+clear
+sudo pacman -S rustup
+clear
+rustup -h
+rustup show
+rustup toolchain
+rustup toolchain install 
+rustup toolchain update
+rustup toolchain install stable
+rustup toolchain install nightly
+clear
+ls
+clear
+cargo
+clear
+python
+clear
+pip
+clear
+sudo pacman -S pip
+sudo pacman -S python-pip
+clear
+pip
+clear
+ls
+xterm
+sudo pacman -S xterm
+clear
+xterm
+sudo pacman -Srn xterm
+sudo pacman -Rns xterm
+clear
+ls
+sudo pacman -S tmux
+clear
+ls
+tmux
+clear
+ls
+clear
+ls
+mkdir projects
+ls
+clear
+cd projects
+mkdir rust
+clear
+ls
+cd rust
+git clone https://github.com/georgiyozhegov/terminal.git
+ls
+git clone git@github.com:georgiyozhegov/n_gram.git
+clear
+ls
+git https://github.com/georgiyozhegov/n_gram.git
+git clone https://github.com/georgiyozhegov/n_gram.git
+clear
+ls
+cd n_gram
+ls
+nvim README.md 
+git status
+clear
+git remote 
+ls
+cd ..
+ls
+clear
+cd ..
+ls
+cd ..
+ls 
+nautilus .
+cd config/bash/
+nvim profile 
+clear
+source .bash_profile
+cd ~
+source .bash_profile
+clear
+clear
+nvim profile 
+clear
+reset
+exit
+ls
+clear
+poweroff
+ls
+cd  ТелеграмБотик/
+clear
+ls
+rm -rf build __pycache__ main.spec 
+clear
+ls
+rm README.md 
+clear
+ls
+rm -rf dist src
+clear
+ls
+rm -rf env
+clear
+python -m venv env
+clear
+source env/bin/activate
+clear
+pip install aiogram python-dotenv
+clear
+ls
+python main.py
+clear
+ls
+clear
+ls
+nvim ip.txt
+ssh george@ << ip.txt
+
+
+
+clear
+cat ip.txt
+ssh george@192.168.0.148
+cd projects/server/
+cd ТелеграмБотик/
+cat info.txt 
+clear
+ls
+scp
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ТелеграмБотик/
+clear
+ls
+scp . george@.
+scp . george@:.
+scp . george@machine:.
+scp . george@machine
+scp . george@machine.
+scp . george@machine:
+scp . george@machine:.
+cd ..
+scp . george@machine:./ТелеграмБотик/
+scp . george@192.168.0.148:home/bot
+ls
+scp ТелеграмБотик/ george@192.168.0.148:home/bot
+scp -r ТелеграмБотик/ george@192.168.0.148:home/bot
+scp -r ТелеграмБотик/ george@192.168.0.148:/home/bot
+scp -r ТелеграмБотик/ george@192.168.0.148:/home/bot
+scp -r ТелеграмБотик/ george@192.168.0.148:/home/george//bot
+clear
+ls
+ls
+ls
+clear
+cd projects/server/
+clear
+ls
+cd ТелеграмБотик/
+clear
+ls
+nvim info.txt
+clear
+ls
+rm ip.txt 
+clear
+cat info.txt 
+
+clear
+ls
+cat info.txt 
+ssh george@192.168.0.148
+clear
+ls
+cat info.txt 
+ssh george@192.168.0.148
+clear
+ssh george@192.168.0.148
+cat info.txt 
+ssh ilya@192.168.0.148
+clear
+ssh george@192.168.0.148
+cat info.txt 
+ssh george@192.168.0.148
+ssh ilya@192.168.0.148
+cat info.txt 
+ssh ilya@192.168.0.148
+clear
+cat info.txt 
+clear
+ls
+cat info.txt 
+ssh ilya@192.168.0.148
+ssh ilya@192.168.0.148
+clear
+ls
+cat info.txt 
+ssh george@192.168.0.148
+cd projects/server/
+clear
+ls
+cd ТелеграмБотик/
+clear
+ls
+cat info.txt 
+clear
+cat info.txt 
+ssh george@nY8nbpZpZwE5ZC
+ssh george@192.168.0.148
+ls
+ssh george@192.168.0.148
+clear
+ls
+cat info.txt 
+ssh george@192.168.0.148
+clear
+ls
+cat info.txt 
+ssh ilya@192.168.0.148
+cat info.txt 
+ssh george@192.168.0.148
+clear
+cat info.txt 
+ssh ilya@192.168.0.148
+clear
+exit
+clear
