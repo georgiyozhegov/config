@@ -13,3 +13,8 @@ PS1='[\W] '
 # profile exports are not working
 export EDITOR='nvim'
 export PATH=$PATH:$HOME/.cargo/bin
+
+# user alias
+alias py='python'
+alias ca='cargo'
+alias fuck='poweroff'
