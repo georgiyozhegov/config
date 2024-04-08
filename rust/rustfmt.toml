@@ -1,0 +1,6 @@
+brace_style = "AlwaysNextLine"
+combine_control_expr = false
+control_brace_style = "ClosingNextLine"
+format_code_in_doc_comments = true
+imports_layout = "Vertical"
+tab_spaces = 8
