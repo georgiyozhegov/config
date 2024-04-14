@@ -9,16 +9,13 @@ vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
 
-vim.keymap.set("n", "s", "^_")
-vim.keymap.set("n", "e", "g_")
-
 vim.keymap.set("n", "wh", "<C-w>h")
 vim.keymap.set("n", "wj", "<C-w>j")
 vim.keymap.set("n", "wk", "<C-w>k")
 vim.keymap.set("n", "wl", "<C-w>l")
 
-vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv")
-vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv")
+vim.g.netrw_banner = 0
+vim.g.netrw_browse_split = 3
 
 local plug = vim.fn["plug#"]
 
