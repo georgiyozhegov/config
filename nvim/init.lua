@@ -14,6 +14,10 @@ vim.keymap.set("n", "wj", "<C-w>j")
 vim.keymap.set("n", "wk", "<C-w>k")
 vim.keymap.set("n", "wl", "<C-w>l")
 
+vim.keymap.set("n", "tc", ":tabe ")
+vim.keymap.set("n", "tn", ":tabn<cr>")
+vim.keymap.set("n", "tp", ":tabp<cr>")
+
 vim.g.netrw_banner = 0
 vim.g.netrw_browse_split = 3
 
