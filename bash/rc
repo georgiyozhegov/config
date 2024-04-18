@@ -12,9 +12,10 @@ PS1='[\W] '
 
 # profile exports are not working
 export EDITOR='nvim'
-export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/.cargo/bin:/opt/RustRover/bin
 
 # user alias
 alias py='python'
 alias ca='cargo'
+alias rover='rustrover.sh > /dev/null'
 alias fuck='poweroff'
