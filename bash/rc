@@ -17,5 +17,5 @@ export PATH=$PATH:$HOME/.cargo/bin:/opt/RustRover/bin
 # user alias
 alias py='python'
 alias ca='cargo'
-alias rover='rustrover.sh > /dev/null'
+alias rover='rustrover.sh &> /dev/null'
 alias fuck='poweroff'
