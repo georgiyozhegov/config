@@ -19,3 +19,7 @@ alias py='python'
 alias ca='cargo'
 alias rover='rustrover.sh &> /dev/null'
 alias fuck='poweroff'
+
+# ls colors
+LS_COLORS=$LS_COLORS:'di=0;32:'
+export LS_COLORS
