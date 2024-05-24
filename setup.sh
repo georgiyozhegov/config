@@ -2,8 +2,10 @@
 
 ln -sfv "$(pwd)/nvim/init.lua" ~/.config/nvim/init.lua
 ln -sfv "$(pwd)/nvim/lua" ~/.config/nvim/lua
+ln -sfv "$(pwd)/hypr/hyprland.conf" ~/.config/hypr/hyprland.conf
+ln -sfv "$(pwd)/hypr/yofi/yofi/yofi.config" ~/.config/yofi/yofi.config
 ln -sfv "$(pwd)/rust/config.toml" ~/.cargo/config.toml
-ln -sfv "$(pwd)/rust/rustfmt.toml" ~/.cargo/rustfmt.toml
+ln -sfv "$(pwd)/rust/rustfmt.toml" ~/.config/rustfmt/rustfmt.toml
 ln -sfv "$(pwd)/bash/rc" ~/.bashrc
 ln -sfv "$(pwd)/bash/profile" ~/.bash_profile
 
