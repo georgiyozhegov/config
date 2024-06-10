@@ -8,6 +8,7 @@ ln -sfv "$(pwd)/rust/config.toml" ~/.cargo/config.toml
 ln -sfv "$(pwd)/rust/rustfmt.toml" ~/.config/rustfmt/rustfmt.toml
 ln -sfv "$(pwd)/bash/rc" ~/.bashrc
 ln -sfv "$(pwd)/bash/profile" ~/.bash_profile
+ln -sfv "$(pwd)/git/config" ~/.gitconfig
 
 if [ ! -f ~/.local/share/nvim/site/autoload/plug.vim ]; then
 	sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
