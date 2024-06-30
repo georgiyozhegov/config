@@ -1,0 +1,8 @@
+# fork = false
+# tabs = true
+theme = "auto"
+title-hidden = true
+
+[font]
+normal = ["Iosevka Nerd Font"]
+size = 13.5
