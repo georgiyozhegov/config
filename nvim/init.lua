@@ -8,6 +8,7 @@ vim.opt.shiftwidth = 6
 vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
+vim.opt.cursorline = true
 
 vim.keymap.set("n", "wh", "<C-w>h")
 vim.keymap.set("n", "wj", "<C-w>j")
@@ -38,6 +39,7 @@ plug("hrsh7th/cmp-nvim-lsp")
 plug("hrsh7th/nvim-cmp")
 plug("dcampos/cmp-snippy")
 plug("dcampos/nvim-snippy")
+plug("sindrets/diffview.nvim")
 
 vim.call("plug#end")
 
