@@ -21,6 +21,10 @@ vim.keymap.set("n", "tp", ":tabp<cr>")
 vim.g.netrw_banner = 0
 vim.g.netrw_browse_split = 3
 
+vim.opt.spell = true
+vim.opt.spelllang = "en_us"
+vim.opt.spellsuggest = "best,5"
+
 local plug = vim.fn["plug#"]
 
 vim.call("plug#begin")
