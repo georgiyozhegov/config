@@ -22,12 +22,6 @@ vim.keymap.set("n", "tp", ":tabp<cr>")
 vim.g.netrw_banner = 0
 vim.g.netrw_browse_split = 3
 
-vim.opt.spell = true
-vim.opt.spelllang = "en_us"
-vim.opt.spellsuggest = "best,5"
-vim.opt.spelloptions:append("camel")
-vim.opt.spellcapcheck = ""
-
 vim.opt.list = true
 vim.opt.listchars:append("space:·")
 vim.opt.listchars:append("eol:↲")
