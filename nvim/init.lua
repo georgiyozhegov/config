@@ -30,6 +30,7 @@ vim.opt.spellcapcheck = ""
 
 vim.opt.list = true
 vim.opt.listchars:append("space:·")
+vim.opt.listchars:append("eol:↲")
 
 local plug = vim.fn["plug#"]
 
