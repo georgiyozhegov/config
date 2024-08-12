@@ -39,6 +39,7 @@ plug("hrsh7th/nvim-cmp")
 plug("dcampos/cmp-snippy")
 plug("dcampos/nvim-snippy")
 plug("sindrets/diffview.nvim")
+plug("David-Kunz/gen.nvim")
 
 vim.call("plug#end")
 
@@ -46,3 +47,4 @@ require("plugins/telescope")
 require("plugins/treesitter")
 require("plugins/gruvbox")
 require("plugins/lsp")
+require("plugins/gen")
