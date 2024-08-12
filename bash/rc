@@ -26,3 +26,6 @@ export LS_COLORS
 # unlimited history
 HISTSIZE=-1
 HISTFILESIZE=-1
+
+# completion
+bind 'TAB:menu-complete'
